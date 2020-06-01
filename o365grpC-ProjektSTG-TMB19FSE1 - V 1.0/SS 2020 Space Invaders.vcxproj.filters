@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Sourcen\Application.cpp">
+      <Filter>Project\Initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Sourcen\User Utilities\V 1.0\User Utilities V 1.0.cpp">
+      <Filter>Project\User Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Sourcen\Application Handler\Base\V 1.0\Base Application Handler V 1.0.cpp">
+      <Filter>Project\Application Handler\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Sourcen\Timer Handler\Base\V 1.0\Base Timer Handler V 1.0.cpp">
+      <Filter>Project\Timer Handler\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Sourcen\Input Handler\Base\V 1.0\Base Input Handler V 1.0.cpp">
+      <Filter>Project\Input Handler\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\frameWORK\Generic\V 1.0\Generic V 1.0.cpp">
+      <Filter>frameWORK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\frameWORK\Timer And Time\V 1.0\Timer And Time V 1.0.cpp">
+      <Filter>frameWORK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sourcen\Application Handler\Space Invaders\V 1.0\Space Invaders Application Handler V 1.0.cpp">
+      <Filter>Project\Application Handler\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Sourcen\Input Handler\Space Invaders\V 1.0\Space Invaders Input Handler V 1.0.cpp">
+      <Filter>Project\Input Handler\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Sourcen\Timer Handler\Space Invaders\V 1.0\Space Invaders Timer Handler V 1.0.cpp">
+      <Filter>Project\Timer Handler\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Sourcen\Space Invaders V 1.0.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\frameWORK\Space Invaders\V 1.0\Space Invaders Graphics V 1.0.cpp">
+      <Filter>frameWORK\Space Invaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\frameWORK\Graphics\V 1.1\Graphics V 1.1.cpp">
+      <Filter>frameWORK\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Application.h">
+      <Filter>Project\Initialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\User Utilities V 1.0.h">
+      <Filter>Project\User Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\targetver.h">
+      <Filter>Project\_WINDOWS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\stdafx.h">
+      <Filter>Project\_WINDOWS</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Application Handler\Base\V 1.0\Base Application Handler V 1.0.h">
+      <Filter>Project\Application Handler\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Timer Handler\Base\V 1.0\Base Timer Handler V 1.0.h">
+      <Filter>Project\Timer Handler\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Input Handler\Base\V 1.0\Base Input Handler V 1.0.h">
+      <Filter>Project\Input Handler\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\frameWORK\Generic\V 1.0\Generic V 1.0.h">
+      <Filter>frameWORK\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\frameWORK\Timer And Time\V 1.0\Timer And Time V 1.0.h">
+      <Filter>frameWORK\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\frameWORK\TypeDEF\V 1.0\TypeDEF V 1.0.h">
+      <Filter>frameWORK\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Application Handler\Space Invaders\V 1.0\Space Invaders Application Handler V 1.0.h">
+      <Filter>Project\Application Handler\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Input Handler\Space Invaders\V 1.0\Space Invaders Input Handler V 1.0.h">
+      <Filter>Project\Input Handler\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Timer Handler\Space Invaders\V 1.0\Space Invaders Timer Handler V 1.0.h">
+      <Filter>Project\Timer Handler\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Space Invaders V 1.0.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\frameWORK\Space Invaders\V 1.0\Space Invaders Graphics V 1.0.h">
+      <Filter>frameWORK\Space Invaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\frameWORK\Graphics\V 1.1\Graphics V 1.1.h">
+      <Filter>frameWORK\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="frameWORK">
+      <UniqueIdentifier>{ebc27264-e1fa-4760-a98e-25be07f26609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frameWORK\System">
+      <UniqueIdentifier>{fe44d250-582a-437b-9207-b99645f9f00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{60d0e4ae-a012-497d-977a-1cd3aa2480f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Initialization">
+      <UniqueIdentifier>{09090ee5-a79e-48ae-b3d2-1bd4414a574a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\User Utilities">
+      <UniqueIdentifier>{33763cc3-39b3-48a4-8d02-7732bd2845fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Application Handler">
+      <UniqueIdentifier>{43dc5fc4-261a-459c-ba34-910418f46a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Application Handler\Base">
+      <UniqueIdentifier>{44a32483-eb94-4558-b80c-9b709561e25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Timer Handler">
+      <UniqueIdentifier>{ac846480-d03b-46a2-ba25-9a72e13400e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Timer Handler\Base">
+      <UniqueIdentifier>{10ecd406-63f5-4555-bb40-4fde7adb601d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Input Handler">
+      <UniqueIdentifier>{105ecd8a-012a-451e-a53f-35078f475232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Input Handler\Base">
+      <UniqueIdentifier>{12df9048-1e61-4cdb-a072-d1fa17ed6d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frameWORK\Graphics">
+      <UniqueIdentifier>{bc33ed13-71bb-4b86-b993-f994bdb691e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\_WINDOWS">
+      <UniqueIdentifier>{335df1f3-0aca-436f-a4ff-efdfabe6ed7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Application Handler\Space Invaders">
+      <UniqueIdentifier>{dd5c58d8-af7c-4c3d-8773-75cf7bdace4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Input Handler\Space Invaders">
+      <UniqueIdentifier>{a6de64e1-b47c-43d4-8fa2-9f189aa35b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\Timer Handler\Space Invaders">
+      <UniqueIdentifier>{124f6a77-cd1a-411b-899d-33239f56f09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="frameWORK\Space Invaders">
+      <UniqueIdentifier>{a30cf445-51f1-4a40-bd1e-29d4231fcde4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

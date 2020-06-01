@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A267427-10F0-4D7B-B401-F82646694CE5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TL</RootNamespace>
+    <ProjectName>Space Invaders V 1.0</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\Include\;$(SolutionDir)\..\..\..\frameWORK;$(SolutionDir)\..\..\..\Allegro-4.4.2\include;$(SolutionDir)\..\..\..\Allegro-4.4.2\include\allegro;$(SolutionDir)\..\..\..\Allegro-4.4.2\include\allegro\platform</AdditionalIncludeDirectories>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>false</AssemblyDebug>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\frameWORK\Generic\V 1.0\Generic V 1.0.cpp" />
+    <ClCompile Include="..\..\..\frameWORK\Graphics\V 1.1\Graphics V 1.1.cpp" />
+    <ClCompile Include="..\..\..\frameWORK\Space Invaders\V 1.0\Space Invaders Graphics V 1.0.cpp" />
+    <ClCompile Include="..\..\..\frameWORK\Timer And Time\V 1.0\Timer And Time V 1.0.cpp" />
+    <ClCompile Include="Sourcen\Application Handler\Base\V 1.0\Base Application Handler V 1.0.cpp" />
+    <ClCompile Include="Sourcen\Application Handler\Space Invaders\V 1.0\Space Invaders Application Handler V 1.0.cpp" />
+    <ClCompile Include="Sourcen\Application.cpp" />
+    <ClCompile Include="Sourcen\Input Handler\Base\V 1.0\Base Input Handler V 1.0.cpp" />
+    <ClCompile Include="Sourcen\Input Handler\Space Invaders\V 1.0\Space Invaders Input Handler V 1.0.cpp" />
+    <ClCompile Include="Sourcen\Space Invaders V 1.0.cpp" />
+    <ClCompile Include="Sourcen\Timer Handler\Base\V 1.0\Base Timer Handler V 1.0.cpp" />
+    <ClCompile Include="Sourcen\Timer Handler\Space Invaders\V 1.0\Space Invaders Timer Handler V 1.0.cpp" />
+    <ClCompile Include="Sourcen\User Utilities\V 1.0\User Utilities V 1.0.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\frameWORK\Generic\V 1.0\Generic V 1.0.h" />
+    <ClInclude Include="..\..\..\frameWORK\Graphics\V 1.1\Graphics V 1.1.h" />
+    <ClInclude Include="..\..\..\frameWORK\Space Invaders\V 1.0\Space Invaders Graphics V 1.0.h" />
+    <ClInclude Include="..\..\..\frameWORK\Timer And Time\V 1.0\Timer And Time V 1.0.h" />
+    <ClInclude Include="..\..\..\frameWORK\TypeDEF\V 1.0\TypeDEF V 1.0.h" />
+    <ClInclude Include="Include\Application Handler\Base\V 1.0\Base Application Handler V 1.0.h" />
+    <ClInclude Include="Include\Application Handler\Space Invaders\V 1.0\Space Invaders Application Handler V 1.0.h" />
+    <ClInclude Include="Include\Application.h" />
+    <ClInclude Include="Include\Input Handler\Base\V 1.0\Base Input Handler V 1.0.h" />
+    <ClInclude Include="Include\Input Handler\Space Invaders\V 1.0\Space Invaders Input Handler V 1.0.h" />
+    <ClInclude Include="Include\Space Invaders V 1.0.h" />
+    <ClInclude Include="Include\stdafx.h" />
+    <ClInclude Include="Include\targetver.h" />
+    <ClInclude Include="Include\Timer Handler\Base\V 1.0\Base Timer Handler V 1.0.h" />
+    <ClInclude Include="Include\Timer Handler\Space Invaders\V 1.0\Space Invaders Timer Handler V 1.0.h" />
+    <ClInclude Include="Include\User Utilities V 1.0.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
